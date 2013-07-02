@@ -21,7 +21,7 @@ macroScript BatchItMax
 (
 	on execute do
 	(
-		if PEN_batchItMax.batchUtil==undefined then
+		if ::PEN_batchItMax.batchUtil==undefined then
 		(
 			PEN_batchItMax.run()
 		)else
