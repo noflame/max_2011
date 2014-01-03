@@ -26,3 +26,10 @@ $lookup "{_AUTODESK_REG_3DSMAX_LOAD_3RDPARTY_SHADERS}"
 registry "{_AUTODESK_REG_3DSMAX_AUTOLOOKUP_ROOT}" value ".\shaders_autoload\mentalray" end registry
 
 registry "{_MI_REG_LIBRARY}" value "..\hardwareshaders\MetaSL" end registry
+
+# Framebuffers Caching
+# Values "none"/"off", "mapped"/"on", or "cache" default is off
+# registry "{_MI_REG_FBVIRTUAL}" value "off" end registry # deactivate Caching
+# registry "{_MI_REG_FBVIRTUAL}" value "mapped" end registry # as default
+
+registry "{_MI_REG_FBVIRTUAL}" value "cache" end registry # as fast
